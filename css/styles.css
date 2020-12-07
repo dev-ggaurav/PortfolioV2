@@ -51,6 +51,15 @@ body.light-mode{
     margin: 0 auto;
 }
 
+.cta-1{
+    background-color: var(--accent-color);
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #16161A;
+}
+
 /* Mobile Design */
 .desktop-nav{
     display: none;
@@ -100,7 +109,7 @@ body.light-mode{
     position: fixed;
     left: -100%;
     top: 6rem;
-    background-color:var(--primary-color-light) ;
+    background-color:var(--primary-color-light);
     width: 100%;
     padding: 5rem 0;
     text-align: center;
@@ -115,7 +124,7 @@ body.light-mode{
 .nav-link{
     font-size: 1.4rem;
     font-weight: 500;
-    color: var(--text-color);
+    color: #FFFFFF;
 }
 
 .nav-item{
@@ -192,7 +201,7 @@ body.light-mode{
 
 
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 700px) {
     .mobile-nav{
         display: none;
     }
@@ -211,6 +220,10 @@ body.light-mode{
 
     .nav-item{
         margin-bottom: 0;
+    }
+
+    .nav-link{
+        color: var(--text-color);
     }
 
     .logo-txt{
